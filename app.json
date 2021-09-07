@@ -43,8 +43,8 @@
       "value": "",
       "required": false
     },
-    "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
+    "CUSTOM_CAPTION": {
+      "description": "put your Custom caption text if you want Setup Custom Caption",
       "value": "",
       "required": false
     }
