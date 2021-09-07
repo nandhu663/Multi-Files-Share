@@ -7,8 +7,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/DarkAngel1234-tech/Multi-Files-Share",
-  "logo": "https://telegra.ph/file/5544537e87a05e0785147.jpg",
+  "repository": "https://github.com/nandhu663/Multi-Files-Share",
+  "logo": "https://telegra.ph/file/3fd66e936c493377d836b.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
@@ -37,6 +37,11 @@
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
       "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+    },
+    "ADMINS": {
+      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "value": "",
+      "required": false
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
